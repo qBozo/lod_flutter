@@ -89,7 +89,7 @@ class DateCardButton extends StatelessWidget {
           shape: BoxShape.circle,
           border: Border.all(
             width: 1.0,
-            // color: Theme.of(context).buttonTheme.colorScheme.primary
+            color: Theme.of(context).colorScheme.primary
           ),
         ),
         child: InkWell(
@@ -97,7 +97,7 @@ class DateCardButton extends StatelessWidget {
             child: Icon(
               iconData,
               size: _iconSize,
-              color: Theme.of(context).buttonTheme.colorScheme?.primary,
+              color: Theme.of(context).colorScheme.primary
             )),
       ),
     );
